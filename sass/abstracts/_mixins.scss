@@ -1,0 +1,15 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin default-fonts {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+@mixin flex-col {
+  display: flex;
+  flex-direction: column;
+}

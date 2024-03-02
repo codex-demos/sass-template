@@ -1,0 +1,6 @@
+body {
+  @include flex-col;
+  section {
+    @include flex-center;
+  }
+}
